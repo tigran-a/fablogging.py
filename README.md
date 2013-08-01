@@ -10,6 +10,7 @@ pip install fabulous
 
 Example
 -------
+```python
 
 import fablogging
 
@@ -20,4 +21,6 @@ log.info("info msg")
 log.warning("warning msg")
 log.error("error msg")
 log.critical("critical msg")
+
+```
 
