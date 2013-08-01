@@ -1,7 +1,7 @@
 fablogging.py
 =============
 
-Python basic color logger based on logging and fabulous
+Python basic color logger based on logging, fabulous and [Stackoverflow](http://stackoverflow.com/a/8349076/1540120)
 
 Prerequisites
 -------------
