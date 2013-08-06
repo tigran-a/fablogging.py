@@ -43,7 +43,7 @@ class CFormatter(logging.Formatter):
 	
 def getLogger(modulename = "", format = '%(asctime)s %(name)-12s %(levelname)-8s %(message)s', datefmt='%Y-%m-%d %H:%M:%S', level=logging.DEBUG):
 	fmt = CFormatter(format, datefmt)
-	hdlr = logging.StreamHandler(sys.stdout)
+	hdlr = logging.StreamHandler(sys.stderr)
 	hdlr.setFormatter(fmt)
 	logger = logging.getLogger(modulename)
 	logger.addHandler(hdlr)
